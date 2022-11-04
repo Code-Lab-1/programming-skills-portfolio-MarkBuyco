@@ -1,29 +1,43 @@
-alien_color= "green"
-if alien_color=="green":
- print("You earned 5 points") 
+#Runs the if block
+alien_color= "green" #Variable.
+if alien_color=="green": #if statement.
+   print("You earned 5 points") #print, if codition is met in "if" block.
+elif alien_color=="yellow": # First elif statement.
+    print("You earned 10 points") #print, if codition is met in "elif" block.
+elif alien_color=="red": # Second if statement. 
+    print("You earned 15 points") #print, if codition is met in "elif" block.
+else:
+    print("You earned 0 points") #print, if none of the coditions are met.
 
-elif alien_color=="yellow":
- print("You earned 10 points") 
- 
-else: alien_color=="red"
-print("You earned 15 points") 
+#Runs the first elif block
+alien_color= "yellow" #Variable.
+if alien_color=="green": #if statement.
+   print("You earned 5 points") #print, if codition is met in "if" block.
+elif alien_color=="yellow": # First elif statement.
+    print("You earned 10 points") #print, if codition is met in "elif" block.
+elif alien_color=="red": # Second if statement. 
+    print("You earned 15 points") #print, if codition is met in "elif" block.
+else:
+    print("You earned 0 points") #print, if none of the coditions are met.
 
-alien_color= "yellow"
-if alien_color=="green":
- print("You earned 5 points") 
-
-if alien_color=="yellow":
- print("You earned 10 points") 
- 
-if alien_color=="red":
- print("You earned 15 points")
-
-alien_color= "red"
-if alien_color=="green":
- print("You earned 5 points") 
-
-if alien_color=="yellow":
- print("You earned 10 points") 
- 
-if alien_color=="red":
- print("You earned 15 points")
+#Runs the first second elif block
+alien_color= "red" #Variable.
+if alien_color=="green": #if statement.
+   print("You earned 5 points") #print, if codition is met in "if" block.
+elif alien_color=="yellow": # First elif statement.
+    print("You earned 10 points") #print, if codition is met in "elif" block.
+elif alien_color=="red": # Second if statement. 
+    print("You earned 15 points") #print, if codition is met in "elif" block.
+else:
+    print("You earned 0 points") #print, if none of the coditions are met.
+    
+#Runs the else block
+alien_color= "blue" #Variable.
+if alien_color=="green": #if statement.
+   print("You earned 5 points") #print, if codition is met in "if" block.
+elif alien_color=="yellow": # First elif statement.
+    print("You earned 10 points") #print, if codition is met in "elif" block.
+elif alien_color=="red": # Second if statement. 
+    print("You earned 15 points") #print, if codition is met in "elif" block.
+else:
+    print("You earned 0 points") #print, if none of the coditions are met.

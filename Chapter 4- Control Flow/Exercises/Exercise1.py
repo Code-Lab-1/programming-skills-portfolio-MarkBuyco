@@ -1,7 +1,10 @@
-alien_color= "green"
-if alien_color=="green":
-   print("You earned 5 points")
+#With output
+alien_color= "green" #Variable that is true.
+if alien_color=="green": #if statement.
+   print("You earned 5 points") #printed output if codition is met.
+
+#Withot output
+alien_color= "yellow" #Variable that is false.
+if alien_color=="green": #if statement
+   print("You earned 5 points") #printed output if codition is met, which is not. 
    
-alien_color= "yellow"
-if alien_color!="green":
-   print("You earned 10 points")
