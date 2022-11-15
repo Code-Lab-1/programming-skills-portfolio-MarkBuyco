@@ -1,5 +1,5 @@
 #If-ELif-Else Age
-age= int(input("Enter A Person's Age")) #Ask user of a specific age
+age= int(input("Enter A Person's Age:")) #Ask user of a specific age
 if age < 2: #if statement
     print("That person is a baby.") #print if the codition above is met.
 elif age < 4: #elif statement 1

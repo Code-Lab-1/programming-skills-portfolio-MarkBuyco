@@ -2,7 +2,7 @@ Guest__list= ["Iftikhar Khan", "Usman Ahmad","Elon Musk"]  #list
 Invite_mes= "\n Good day! You are still invited to a dinner on Thurday \n 6pm in Burj Al Arab, room 56. \n-Mark Buyco"
 #Variable message
 Guest__list[2] = 'Bill Gates' #Changing the value of the last data in the list.
-Mes= " Unfortunately, we are very sorry that we only have space for two guests, \n therefore, we will invite two people only.\n we are very sorry for the inconvenience."
+Mes= "We are very sorry that we only have space for two guests, \n therefore, we will invite two people only.\n we are very sorry for the inconvenience."
 #Variable message
 print(Mes) #print variable message
 Guest__list.pop(2) # .pop removes a specfic data within a list
